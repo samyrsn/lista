@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <meta charset="UTF-8">
     <link rel="shortcut icon" type="imagemx/png" href="./imagens/among-us_site.webp">
+    <link rel= "stylesheet" href= "estilo.css">
     <head>
         <title>Lista de tarefa</title>
         <div style="text-align: center;">
@@ -9,8 +10,13 @@
         <div>
     </head>
     <body>
-        <input type="text" placeholder="ADICIONAR UMA TAREFA...">
-        <button onclick="AdicionarTerefa()">Adicionar</button>
-        <Script> src="scipt.js"></script>
+        <div style="text-align: center;">    
+            <input type="text" placeholder="ADICIONAR UMA TAREFA..." id="entradaTarefa">
+            <button onclick="adicionarTarefa()">adicionar</button>
+            <div style="padding-top: 5px;">
+                <ul id="listaTarefas"></ul>
+            </div>
+        </div>
+        <Script src="script.js"></script>
     </body>
 </html>
