@@ -1,4 +1,9 @@
 body {
     background-color: rebeccapurple;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.item-lista {
+    list-style-type: none;
 }
